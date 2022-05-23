@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     exhaustive_set-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R5-12,14
+Instances:    625
+Attributes:   5
+              MC_PITCHRATE_P
+              MC_PITCH_P
+              MC_ROLLRATE_P
+              MC_ROLL_P
+              outcome
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+MC_PITCHRATE_P <= 0.01: fail (125.0)
+MC_PITCHRATE_P > 0.01
+|   MC_PITCH_P <= 0: fail (100.0)
+|   MC_PITCH_P > 0
+|   |   MC_ROLLRATE_P <= 0.01: fail (80.0)
+|   |   MC_ROLLRATE_P > 0.01
+|   |   |   MC_ROLL_P <= 0: fail (64.0)
+|   |   |   MC_ROLL_P > 0
+|   |   |   |   MC_PITCHRATE_P <= 0.38: pass (192.0/1.0)
+|   |   |   |   MC_PITCHRATE_P > 0.38
+|   |   |   |   |   MC_ROLLRATE_P <= 0.33: pass (48.0)
+|   |   |   |   |   MC_ROLLRATE_P > 0.33
+|   |   |   |   |   |   MC_PITCH_P <= 9.3: fail (12.0)
+|   |   |   |   |   |   MC_PITCH_P > 9.3
+|   |   |   |   |   |   |   MC_ROLL_P <= 6.5: pass (2.0)
+|   |   |   |   |   |   |   MC_ROLL_P > 6.5: fail (2.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         620               99.2    %
+Incorrectly Classified Instances         5                0.8    %
+Kappa statistic                          0.9831
+Mean absolute error                      0.0084
+Root mean squared error                  0.0762
+Relative absolute error                  1.7776 %
+Root relative squared error             15.6549 %
+Total Number of Instances              625     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.992    0.008    0.988      0.992    0.990      0.983    0.998     0.992     pass
+                 0.992    0.008    0.995      0.992    0.993      0.983    0.998     0.999     fail
+Weighted Avg.    0.992    0.008    0.992      0.992    0.992      0.983    0.998     0.996     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 239   2 |   a = pass
+   3 381 |   b = fail
+
