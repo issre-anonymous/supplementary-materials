@@ -12,6 +12,8 @@ The units for the measurements are as follows:
 - Max Speed Down: km/h
 - Max Tilt Angle: deg
 
+We have also included the classification tree for the exhaustive dataset using J48 and pass/fail labels. 
+
 ## One-way data: 
 The full set of results for the nonadaptive and adaptive one-way data used in Table 2. 
 The units for the measurements are as follows: 
