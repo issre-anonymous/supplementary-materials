@@ -40,7 +40,7 @@ The units for the measurements are as follows:
 ## Box Plots: 
 The max tilt box plot sheets are the full set of results used to create the box plots depicting the maximum tilt angle for passed and failed cases in Figure 2. The max tilt angle is measured in degrees. 
 The one-way nonadaptive and adaptive box plot sheets include the data for the box plots in Figure 5 and the one-way box plots in Figure 6. 
-The pairwise nonadaptive and adaptive box plot sheets contain the data used to create the pairwise box plots in Figure 6 and Figure 7. 
+The pairwise nonadaptive and adaptive box plot sheets contain the data used to create the 2-way box plots in Figure 6 and Figure 7. 
 The units for the measurements are as follows:
 - Distance: m
 - Distance from Default: m
@@ -48,3 +48,7 @@ The units for the measurements are as follows:
 
 ## Sample Logs: 
 A sample set of ulog files exhibiting the types of behavior shown in Figure 3, as well as images of the flight paths for each log. These logs can be viewed using the [PX4 Flight Review software](https://review.px4.io/upload). 
+
+Additional logs are available upon request from the PC chairs.
+
+Notice: The data contained here explicitly provided as supplemental material for a paper under review. Please do not share this link or data or use for research purposes, until the paper has been accepted for publication. 
