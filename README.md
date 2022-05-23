@@ -51,4 +51,4 @@ A sample set of ulog files exhibiting the types of behavior shown in Figure 3, a
 
 Additional logs are available upon request from the PC chairs.
 
-Notice: The data contained here explicitly provided as supplemental material for a paper under review. Please do not share this link or data or use for research purposes, until the paper has been accepted for publication. 
+Notice: The data contained here is explicitly provided as supplemental material for a paper under review. Please do not share this link or data or use for research purposes, until the paper has been accepted for publication. 
